@@ -7,3 +7,9 @@ Features:
 - Simple and minimalistic weather page.
 - Lightweight and fast.
 
+## Instalation
+
+0. Clone the repo.
+1. Configure cron to execute `./script/weather.sh` (ex. by copying it to `/etc/cron.hourly`) and set environment variables.
+2. Build a react app in `./app`.
+3. Serve the built app and `$STORAGE/latest` as static files.
